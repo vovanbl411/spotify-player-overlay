@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<!-- maintainer-needed -->
+	<upstream>
+		<remote-id type="github">aome510/spotify-player</remote-id>
+	</upstream>
+	<use>
+		<flag name="daemon">Allow running as a daemon (requires streaming)</flag>
+		<flag name="fzf">Enable fuzzy matching for searches</flag>
+		<flag name="image">Display album artwork using terminal image protocols</flag>
+		<flag name="media-control">Enable MPRIS media controls over D-Bus</flag>
+		<flag name="notify">Send desktop notifications using D-Bus</flag>
+		<flag name="pixelate">Enable pixelated album artwork (requires image)</flag>
+		<flag name="streaming">Stream audio using the rodio backend (ALSA on Linux)</flag>
+	</use>
+</pkgmetadata>
